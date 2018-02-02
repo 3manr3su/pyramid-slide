@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+       html{
+           background-color: white;
+       } 
+       body {
+            font-family: "Courier";
+            line-height: 10px;
+            background-color:whitesmoke;
+            
+            font-size: 30px; 
+            font-weight: lighter;
+            margin-left: 250px;
+            margin-right: 250px;
+            padding-bottom: 100px;
+             
+            
+        }
+        label{
+            font-size:16px;
+            font-weight: ligher;
+        }
+        #container{
+            background-color: whitesmoke;
+            line-height: 60px;
+            font-size: 18px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 2px;
+            border-color:#ab548b;
+            padding-bottom: 50px;
+            text-align: right;
+           
+            
+        }
+        #selectcontainer{
+            background-color:lightgray;
+            text-align: center;
+            font-weight: 100;
+            font-size: 13px;
+        }
+        #height{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #charselect{
+            font-size: 20px;
+        }
+
+        #pyramid{
+           font-family:courier;
+            text-align:right;
+            color:#ab548b;
+            font-size: 23px;
+            background-color:whitesmoke;
+            line-height: 15px;
+            text-align: right;
+            margin-bottom: 0px;
+            margin-right: 200px;
+
+        }
+       h1{
+           font-size: 30px;
+           color:lightgray;
+           text-align: center;
+           background-color: #ab548b;
+           line-height: 120px
+       }
+       
+
+        
+        padding{};
+        color{}; 
+        border{
+            border-radius: 5px
+
+        };
+       
+
+       
+    </style>
+</head>
+<body>
+    <h1>Pyramid Slide</h1>
+    
+   <div id="container"> 
+       <div id="selectcontainer">
+        <label for="charselect">Brick Symbol:</label>
+        <select id="charselect" name="charselect"> 
+            <option value="#">#</option>
+            <option value="@">@</option>
+            <option value="X">X</option>
+            <option value="$">$</option>
+        </select>
+            
+            
+       
+                <label for="myRange">How high?</label>
+            <input type="range" min="1" max="20" value="10" class="slider" id="myRange">
+            <output id="height">10</output>
+        </div>    
+       
+    
+    
+
+    <div id="pyramid">
+        <!-- Our pyramid will go inside here -->
+
+  
+    </div>
+</div> 
+
+    <script src="pyramid-slide.js"></script>
+   
+</body>
+</html>
