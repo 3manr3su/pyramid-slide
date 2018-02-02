@@ -17,7 +17,7 @@ slider.oninput = function() {
 
 select.onchange = function(){
     select.value = this.value
-    drawPyramid(output)
+    drawPyramid(height.value)
     
 }
 
